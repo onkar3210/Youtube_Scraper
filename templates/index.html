@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Youtube Scrapper</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+<body>
+    <h1>Youtube Scrapper</h1>
+    <div>
+        <form action="/scrapper" method="post">
+            <label for="question">What do you want to scrap?</label>
+            <select name="question" id="question">
+                <option value="Comments">Comments</option>
+                <option value="Video Stats">Video Stats</option>
+                <option value="Channel Stats">Channel Stats</option>
+            </select><br>
+            <label for="link">Paste link here!</label>
+            <input type="text" id="link" name="link">
+            <label for="csv">Do you want to save it as a CSV?</label>
+            <select name="csv" id="csv">
+                <option value="No">No</option>
+                <option value="Yes">Yes</option>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+      {% if result %}
+    <h2>Result:</h2>
+    {% for comment in result %}
+    <p>{{ comment }}</p>
+    {% endfor %}
+    {% endif %}
+</body>
+</html>
