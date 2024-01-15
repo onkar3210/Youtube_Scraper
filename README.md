@@ -67,6 +67,7 @@ Open your web browser and go to http://localhost:5000. You will see the home pag
 2. **Choose Operation**:
 
 - Scrape YouTube Video Comments:
+![Screenshot 2024-01-15 230720](https://github.com/onkar3210/Youtube_Scraper/assets/95028927/48843e81-458c-40fd-8ea9-371cf0d0ec95)
 
   1. Click on the "Video Comments" link.
   2. Enter the YouTube video URL.
@@ -74,6 +75,7 @@ Open your web browser and go to http://localhost:5000. You will see the home pag
   4. Click the "Submit" button.  
     
 - Retrieve YouTube Video Details:
+![Screenshot 2024-01-15 230619](https://github.com/onkar3210/Youtube_Scraper/assets/95028927/ac2a31bf-b2f9-4341-93da-3f9adc6bea4d)
 
     1. Click on the "Video Details" link.
     2. Enter the YouTube video URL.
@@ -95,12 +97,6 @@ Open your web browser and go to http://localhost:5000. You will see the home pag
 After submitting the form for any operation, you will be prompted to save the results as a CSV file. Choose the desired location on your PC to save the file.
 
 **Note** Ensure you have a valid YouTube API key configured in the config.py file before running the application.
-
-
-
-## Screenshots
-
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 
 
 ## Acknowledgements
