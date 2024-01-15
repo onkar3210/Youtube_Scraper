@@ -95,8 +95,8 @@ Open your web browser and go to http://localhost:5000. You will see the home pag
     6. Click the "Submit" button.
    
 3. **Save Results as CSV (Optional)**:
+   
    ![image](https://github.com/onkar3210/Youtube_Scraper/assets/95028927/61bf4aa7-df84-4460-8cf6-dacc65d532a7)
-
 After submitting the form for any operation, you will be prompted to save the results as a CSV file. Choose the desired location on your PC to save the file.
 ![Screenshot 2024-01-15 232613](https://github.com/onkar3210/Youtube_Scraper/assets/95028927/2de6f5ea-ef8f-4250-a200-454e175acab9)
 ![Screenshot 2024-01-15 232547](https://github.com/onkar3210/Youtube_Scraper/assets/95028927/f92410a0-a7bc-4116-9d9a-44e9308a595c)
